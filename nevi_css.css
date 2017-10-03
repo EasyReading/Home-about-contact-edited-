@@ -1,0 +1,109 @@
+.background{
+	background:url(image/PicsArt_08-27-05.46.47.jpg) no-repeat;
+	height: 60vh;
+	background-size: cover;
+	/*margin: -50px; */
+	position: relative;
+
+}
+.bulb{
+	padding-left: 1000px;
+	padding-top: -60px;
+	height: 30vh;
+}
+.search{
+	text-align: center;
+
+}
+.search .go{
+	display: inline;
+	width: 80%;
+	
+	border: none;
+	border-radius: 2rem;
+	padding: .6rem;
+	text-align: initial;
+	outline: none;
+}
+.search button{
+	color: white;
+	font-weight: bold;
+	display: initial;
+	text-align: center;
+	background-color: #383326;
+	width: 10%;
+	border-radius: .3rem;
+	padding: .3rem;
+}
+.nav{
+	padding-top: -5px;
+	background-size: cover;
+	width: 100%;
+	height: 138px;
+	background:   #4C4532;
+}
+ul{
+	list-style: none;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	float: left;
+	margin-top: 20px;
+}
+ul li a{
+	width: auto;
+	color: white;
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: auto;
+	padding: 10px;
+	border-radius: 5px;
+	font-family: monospace;
+	font-weight: bold; 
+}
+a:hover{
+	background: #383326;
+
+}
+ul li ul{
+	background:   #4C4532;
+}
+ul li ul li{
+	float: right;
+}
+ul li ul{
+	display: none;
+}
+ul li:hover ul{
+	display: inline-flex;
+}
+#images{
+	width: 60%;
+	height: 110vh;
+	border:0px none ;
+	margin: 0 auto;
+	background-size: 600px;
+	position: relative; 
+}
+.last{
+	margin-top: 60px;
+	background: url(image/nature-2487844_960_720.jpg)no-repeat;
+	height: 30vh;
+	background-size: cover;
+	font-weight: bold;
+	position: relative;
+	text-align: center;
+}
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+body{
+	background: url(image/26102.jpg) ;
+}
